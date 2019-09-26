@@ -6,13 +6,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>NeedForJS</title>    
     <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="score"></div>
+    
     <div class="game">
-        <div class="start">Чтобы начать игру, кликни сюда!</div>
-        <div class="gameArea"></div>
+        <div class="start">
+            <p>Choose your level to start the game</p>
+            <button class='btn' id='1'>light</button>
+            <button class='btn' id='3'>medium</button>
+            <button class='btn' id='5'>hard</button>
+        </div>
+        <div class="gameArea hide"></div>
     </div>
     <script src='./main.js'></script>
 </body>
